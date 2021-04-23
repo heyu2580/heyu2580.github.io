@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title>练习使用Markdown写博客</title>
-    <url>/2021/04/21/hello-world/</url>
+    <url>/2021/04/21/%E7%BB%83%E4%B9%A0%E4%BD%BF%E7%94%A8Markdown%E5%86%99%E5%8D%9A%E5%AE%A2/</url>
     <content><![CDATA[<p>大家好我是heyu2580，欢迎来到<a href="http://heyu2580.xyz/">heyu2580’s blog</a>。这是我的第一篇文章，我打算写几篇关于Markdown学习的文章。一方面是对Markdown的学习和练习，另一方面也让我能更加熟悉hexo这个博客架构，让我后续能够更好地去完善我的网站，也能更方便、熟练的写文章。我后续可能主要写一些关于模拟集成电路学习的文章，希望这会是一个好的开始。</p>
 <h2 id="Markdown介绍"><a href="#Markdown介绍" class="headerlink" title="Markdown介绍"></a>Markdown介绍</h2><p>Markdown是一种轻量级标记语言，排版语法简洁，让人们更多的关注内容本身而非排版。它使用易读易写的纯文本格式编写文档，可与HTML混编，可导出HTML、PDF以及本身的.md格式的文件。因简洁、高效、易读、易写，Markdown被大量使用，如Github、Wikipedia等网站，如各大博客平台:WordPress、Drupal、简书等。</p>
 <h2 id="Markdown基本语法"><a href="#Markdown基本语法" class="headerlink" title="Markdown基本语法"></a>Markdown基本语法</h2><h3 id="标题语法"><a href="#标题语法" class="headerlink" title="标题语法"></a>标题语法</h3><p>Markdown通过在单词或者语句前加#号来创建标题。#的数量表示了该标题的级别。#号的数量越多，则该标题的级别越低，其在网页端显示的也越小。<br><img src="/image/Markdown_1.png"><br>不同的Markdown应用程序处理#号和标题之间的空格方式并不一致，为了兼容考虑，最好用一个空格在#和标题之间进行分隔。例如我的当前所处的标题是标题语法，我应该写成### 标题语法比较好。</p>
@@ -127,7 +127,7 @@
 <p>渲染效果如下：<br>这是一个链接 <a href="https://markdown.com.cn/" title="最好的markdown教程">Markdown语法</a>。</p>
 <h4 id="网址和email地址"><a href="#网址和email地址" class="headerlink" title="网址和email地址"></a>网址和email地址</h4><p>使用尖括号可以很方便地把URL或者email地址变成可点击的链接。</p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;https:&#x2F;&#x2F;markdown.com.cn&gt;</span><br><span class="line">&lt;2728449755@qq.com&gt;</span><br></pre></td></tr></table></figure>
-<p>渲染效果如下：<br><a href="https://markdown.com.cn/">https://markdown.com.cn</a><br><a href="mailto:&#x32;&#55;&#50;&#56;&#52;&#x34;&#57;&#x37;&#53;&#53;&#64;&#113;&#x71;&#x2e;&#x63;&#x6f;&#x6d;">&#x32;&#55;&#50;&#56;&#52;&#x34;&#57;&#x37;&#53;&#53;&#64;&#113;&#x71;&#x2e;&#x63;&#x6f;&#x6d;</a></p>
+<p>渲染效果如下：<br><a href="https://markdown.com.cn/">https://markdown.com.cn</a><br><a href="mailto:&#50;&#55;&#50;&#x38;&#52;&#x34;&#57;&#x37;&#x35;&#53;&#x40;&#x71;&#113;&#46;&#x63;&#x6f;&#x6d;">&#50;&#55;&#50;&#x38;&#52;&#x34;&#57;&#x37;&#x35;&#53;&#x40;&#x71;&#113;&#46;&#x63;&#x6f;&#x6d;</a></p>
 <h4 id="带格式化的链接"><a href="#带格式化的链接" class="headerlink" title="带格式化的链接"></a>带格式化的链接</h4><p>强调链接,在链接语法前后增加星号。粗体在链接语法前后加一个星号即可，斜体则在链接语法前后加两个星号。要将链接表示为代码，请在方括号中添加反引号。</p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">I love supporting the **[EFF](https:&#x2F;&#x2F;eff.org)**.</span><br><span class="line">This is the *[Markdown Guide](https:&#x2F;&#x2F;www.markdownguide.org)*.</span><br><span class="line">See the section on [&#96;code&#96;](#code).</span><br></pre></td></tr></table></figure>
 <p>渲染效果如下：<br>I love supporting the <strong><a href="https://eff.org/">EFF</a></strong>.<br>This is the <em><a href="https://www.markdownguide.org/">Markdown Guide</a></em>.<br>See the section on <a href="#code"><code>code</code></a>.</p>
@@ -168,32 +168,6 @@
       </categories>
       <tags>
         <tag>轻量级文本标记语言</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/2021/04/20/hello-world2/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-      <categories>
-        <category>工具</category>
-        <category>hexo</category>
-      </categories>
-      <tags>
-        <tag>工具</tag>
-        <tag>hexo</tag>
       </tags>
   </entry>
 </search>
